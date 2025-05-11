@@ -14,46 +14,65 @@
 </head>
 <body>
 
-<div class="container form-container">
+<div >
   <h2 class="mb-4">Internship Application Form</h2>
   <form class="needs-validation" novalidate>
 
-    <!-- First Name -->
-    <div class="mb-3">
-      <label for="first-name-input" class="form-label">First Name</label>
-      <input type="text" class="form-control" id="first-name-input" required>
-      <div class="invalid-feedback">Please enter your first name.</div>
-    </div>
 
-    <!-- Last Name -->
-    <div class="mb-3">
-      <label for="last-name-input" class="form-label">Last Name</label>
-      <input type="text" class="form-control" id="last-name-input" required>
-      <div class="invalid-feedback">Please enter your last name.</div>
-    </div>
-
-    <!-- Email -->
+	  <div class="row">
+	<div class="col-sm-3">
+		<!-- First Name -->
+	    <div class="mb-3">
+	      <label for="first-name-input" class="form-label">First Name</label>
+	      <input type="text" class="form-control" id="first-name-input" required>
+	      <div class="invalid-feedback">Please enter your first name.</div>
+	    </div>
+	</div>
+		  <div class="col-sm-3">
+			  <!-- Last Name -->
+			    <div class="mb-3">
+			      <label for="last-name-input" class="form-label">Last Name</label>
+			      <input type="text" class="form-control" id="last-name-input" required>
+			      <div class="invalid-feedback">Please enter your last name.</div>
+			    </div>
+		  </div>
+		  <div class="col-sm-3">
+ <!-- Email -->
     <div class="mb-3">
       <label for="email-input" class="form-label">Email</label>
       <input type="email" class="form-control" id="email-input" required>
       <div class="invalid-feedback">Please enter a valid email address.</div>
     </div>
 
-    <!-- College Name -->
+			  
+			    </div>
+
+		  
+	  </div>
+    
+
+    
+
+   <div class="row">
+	   <div class="col-sm-3">
+		   <!-- College Name -->
     <div class="mb-3">
       <label for="college-input" class="form-label">College Name</label>
       <input type="text" class="form-control" id="college-input" required>
       <div class="invalid-feedback">Please enter your college name.</div>
     </div>
-
-    <!-- Roll Number -->
+	   </div>
+	   
+	   <div class="col-sm-3">
+		    <!-- Roll Number -->
     <div class="mb-3">
       <label for="roll-no-input" class="form-label">Roll Number</label>
       <input type="text" class="form-control" id="roll-no-input" required>
       <div class="invalid-feedback">Please enter your roll number.</div>
     </div>
-
-    <!-- Graduation Year -->
+	   </div>
+	   <div class="col-sm-3">
+		   <!-- Graduation Year -->
     <div class="mb-3">
       <label for="grad-year" class="form-label">Graduation Year</label>
       <select class="form-select" id="grad-year" required>
@@ -66,6 +85,13 @@
       <div class="invalid-feedback">Please select your graduation year.</div>
     </div>
 
+	   </div>
+   </div>
+    
+
+   
+
+    
     <!-- Terms & Conditions -->
     <div class="form-check mb-3">
       <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
